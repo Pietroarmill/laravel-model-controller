@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  // font-family: 'Six Caps', sans-serif;  
+}
+
+button {
+  padding: .4rem .8rem ;
+  background-color: white;
+  border: 2px solid rgb(255, 94, 36);
+  box-shadow: 6px 6px 1px #ff44004f;
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 94, 36);
+  }
+}
+
+
+h1 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-family: 'Fascinate', cursive;
+  font-size: 4rem;
+  text-shadow: 5px 5px 1px #ff44004f;
+  color: rgb(255, 94, 36);
+
+}
+
+.home {
+  padding: 2rem 0;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  
+  .movies-list {
+    display: flex;
+    flex-wrap: wrap;
+  
+    .movie-card {
+      padding: .5rem;
+      height: 15vw;
+      width: calc(100% / 5 - 2%);
+      margin: 1rem 1%;
+      border: 2px solid #b3ff00;
+      border-radius: 5px;
+      background-color: #f0ffcd;
+      box-shadow: 6px 6px 1px #88b4227a;
+
+      p {
+        margin: .5rem 0;
+      }
+    }
+  }
+}
+
+
